@@ -2,71 +2,16 @@
 # megatouch-host loads the game with RTLD_NOW, so each of these must be defined
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
-CardG | elevenup.so
-LinkEasyMode | elevenup.so
-LinkFanTimeSetting | elevenup.so
-LinkShowDeckSetting | elevenup.so
-LocalGameOverFlag | elevenup.so
-NetGlob | elevenup.so
-RankFunc | elevenup.so
-Card_PollLinks() | elevenup.so
-DisplayDefeated(int, int) | elevenup.so
-GetHelpFileName(char (&) [255], char const*, Locale::Languages, char const*) | elevenup.so
-ScreenIsTouched() | elevenup.so
-Card_ProcessInfo() | elevenup.so
-Card_LinkWaitForAll(unsigned long) | elevenup.so
-Card_ProcessRTPackets(unsigned char) | elevenup.so
-MeritthonDisplayRound(int, int, int, unsigned long) | elevenup.so
-Card_ParseGameOverFlag() | elevenup.so
 t_i_l() | elevenup.so
-GetMyId() | elevenup.so
-u_m_m_s(char const*, char*, char*, unsigned int) | elevenup.so
-Delay_PE(unsigned long) | elevenup.so
-QueFlush(bool) | elevenup.so
-GetMaster() | elevenup.so
-NetGlobals::GetLeaderScore() | elevenup.so
-NetGlobals::GetRank(unsigned char) | elevenup.so
 TextSystem::DisplayOnBitmap(NBitmap&, char const*, CoordT<int> const*, CoordT<int> const*, bool, bool) | elevenup.so
 TextSystem::SetTextDescription(TextDesc const&) | elevenup.so
 VideoClass::CheckColorDepth() | elevenup.so
-VideoClass::ShowPCX(char const*, short, short, unsigned char) | elevenup.so
-WorldClass::LoadBmp(char const*, int, float, int, int, bool, bool, Bitmap*) | elevenup.so
-WorldClass::SetBack(Bitmap*, int) | elevenup.so
-WorldClass::SetBack(short) | elevenup.so
-WorldClass::DeleteBmp(Bitmap*, unsigned char) | elevenup.so
-WorldClass::WorldClass() | elevenup.so
-system_info::Get_Motherboard_Type() | elevenup.so
 HighScoresManager::PlayerName(int) | elevenup.so
-ads::tracking::record_ad(db_ad_data::Type, xml_gameinfo::GameIds, char const*) | elevenup.so
-Books::Credits(xml_gameinfo::GameIds, enums::Span) | elevenup.so
-Books::Instance() | elevenup.so
 USBIO::USBConfirmKeyID(unsigned char) | elevenup.so
 USBIO::FoundUSB() | elevenup.so
 USBIO::Instance() | elevenup.so
-Bitmap::ConvertSmack(unsigned char) | elevenup.so
-Bitmap::CopyFromScreen(int, int, bool) | elevenup.so
-Bitmap::CreateSmackTextBox(char const*, FontBase*, signed char, unsigned short, unsigned short, bool) | elevenup.so
-Bitmap::CreateColoredTextBoxTTF(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | elevenup.so
-Bitmap::CreateColoredTextBoxTTFS(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | elevenup.so
-Bitmap::Scale(int, int, unsigned char) | elevenup.so
-Bitmap::GreyBmp() | elevenup.so
-Bitmap::LoadJPEG(char*, int, int, unsigned char) | elevenup.so
-Bitmap::NextAnim() | elevenup.so
-Bitmap::LoadSmack(char*, unsigned char, unsigned char) | elevenup.so
 Colour::black | elevenup.so
 Colour::white | elevenup.so
 NBitmap::WrapAllegroBitmap(BITMAP*) | elevenup.so
 NBitmap::~NBitmap() | elevenup.so
 TextDesc::SetFontName(char const*) | elevenup.so
-TextUtils::ConvertToMarkup(char const*) | elevenup.so
-TextUtils::MeritStringToUTF8(char const*) | elevenup.so
-TextUtils::VPatch(char*, int, char const*, char const*, ...) | elevenup.so
-vtable for DOSLinuxWorld | elevenup.so
-al_findclose | elevenup.so
-al_findfirst | elevenup.so
-al_findnext | elevenup.so
-clear_bitmap | elevenup.so
-file_time | elevenup.so
-gfx_driver | elevenup.so
-screen | elevenup.so
-set_mouse_sprite | elevenup.so

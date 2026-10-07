@@ -4,14 +4,10 @@
 # symbol | needed by
 t_i_l() | elevenup.so
 TextSystem::DisplayOnBitmap(NBitmap&, char const*, CoordT<int> const*, CoordT<int> const*, bool, bool) | elevenup.so
-TextSystem::SetTextDescription(TextDesc const&) | elevenup.so
 VideoClass::CheckColorDepth() | elevenup.so
 HighScoresManager::PlayerName(int) | elevenup.so
 USBIO::USBConfirmKeyID(unsigned char) | elevenup.so
 USBIO::FoundUSB() | elevenup.so
 USBIO::Instance() | elevenup.so
-Colour::black | elevenup.so
-Colour::white | elevenup.so
 NBitmap::WrapAllegroBitmap(BITMAP*) | elevenup.so
 NBitmap::~NBitmap() | elevenup.so
-TextDesc::SetFontName(char const*) | elevenup.so

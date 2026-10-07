@@ -5,7 +5,6 @@
 t_i_l() | elevenup.so
 TextSystem::DisplayOnBitmap(NBitmap&, char const*, CoordT<int> const*, CoordT<int> const*, bool, bool) | elevenup.so
 VideoClass::CheckColorDepth() | elevenup.so
-HighScoresManager::PlayerName(int) | elevenup.so
 USBIO::USBConfirmKeyID(unsigned char) | elevenup.so
 USBIO::FoundUSB() | elevenup.so
 USBIO::Instance() | elevenup.so
